@@ -9,12 +9,10 @@ import java.util.EnumSet;
 public class EnumSetTest {
 
   public static void main(String[] args) {
-    System.out.println(-1 >>> -3);
-
-    EnumSet<Color> colors = EnumSet.allOf(Color.class);
-    for (Color color : colors) {
-      System.out.println(color);
-    }
+    EnumSet<Color> set1 = EnumSet.of(Color.RED, Color.BLUE);
+    EnumSet<Color> set2 = EnumSet.complementOf(set1);
+    System.out.println(set1);
+    System.out.println(set2);
   }
 
 
@@ -25,7 +23,9 @@ public class EnumSetTest {
 
     GREEN,
 
-    YELLOW
+    YELLOW,
+
+    BLUE
 
   }
 }

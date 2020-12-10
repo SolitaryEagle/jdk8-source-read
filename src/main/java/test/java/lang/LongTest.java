@@ -7,6 +7,11 @@ package test.java.lang;
 public class LongTest {
 
   public static void main(String[] args) {
+
+  }
+
+
+  public static void testNumberOfTrailingZeros() {
     int i = Long.numberOfTrailingZeros(0);
     System.out.println(i);
   }

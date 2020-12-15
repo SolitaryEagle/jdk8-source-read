@@ -76,17 +76,17 @@
       <point x="582.7972222222222" y="238.0" />
       <point x="-45.0" y="18.0" />
     </edge>
-    <edge source="java.util.Properties" target="java.util.Map">
-      <point x="0.0" y="-18.0" />
-      <point x="800.2972222222222" y="56.0" />
-      <point x="542.7972222222222" y="56.0" />
-      <point x="30.375" y="18.0" />
-    </edge>
     <edge source="java.util.concurrent.ConcurrentNavigableMap" target="java.util.concurrent.ConcurrentMap">
       <point x="-72.5" y="-18.0" />
       <point x="430.7972222222222" y="238.0" />
       <point x="400.6666666666667" y="238.0" />
       <point x="47.75" y="18.0" />
+    </edge>
+    <edge source="java.util.Properties" target="java.util.Map">
+      <point x="0.0" y="-18.0" />
+      <point x="800.2972222222222" y="56.0" />
+      <point x="542.7972222222222" y="56.0" />
+      <point x="30.375" y="18.0" />
     </edge>
     <edge source="java.util.concurrent.ConcurrentSkipListMap" target="java.util.AbstractMap">
       <point x="-69.75" y="-18.0" />
@@ -95,8 +95,10 @@
       <point x="0.0" y="18.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="451.5" y="200.0" />
-  <SelectedNodes />
+  <settings layout="Hierarchic Group" zoom="1.0" x="435.0" y="188.5" />
+  <SelectedNodes>
+    <node>java.util.Map</node>
+  </SelectedNodes>
   <Categories />
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>

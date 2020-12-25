@@ -7,8 +7,8 @@
     <node x="263.9166666666667" y="344.0">java.util.concurrent.ConcurrentSkipListMap</node>
     <node x="721.2972222222222" y="86.0">java.util.Properties</node>
     <node x="579.0472222222222" y="344.0">java.util.TreeMap</node>
-    <node x="471.9222222222222" y="0.0">java.util.Map</node>
     <node x="358.2972222222222" y="258.0">java.util.concurrent.ConcurrentNavigableMap</node>
+    <node x="471.9222222222222" y="0.0">java.util.Map</node>
     <node x="0.0" y="344.0">java.util.concurrent.ConcurrentHashMap</node>
     <node x="537.7972222222222" y="172.0">java.util.NavigableMap</node>
     <node x="554.2972222222222" y="86.0">java.util.SortedMap</node>

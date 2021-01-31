@@ -7,11 +7,13 @@ package test.java.lang;
 public class IntegerTest {
 
   public static void main(String[] args) {
-    testNumberOfLeadingZeros();
 
-    // 0111 1111  1111 1111  1111 1111  1111 1111
-    String s = Integer.toBinaryString(0x7fffffff);
-    System.out.println(s);
+    String binaryString = Integer.toBinaryString(-1);
+    System.out.println(binaryString);
+
+    int num = Integer.parseUnsignedInt(binaryString, 2);
+    System.out.println(num);
+
   }
 
 
